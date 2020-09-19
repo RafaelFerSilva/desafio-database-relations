@@ -21,7 +21,7 @@ export default class CreateOrdersProducts1600278125725 implements MigrationInter
                         scale: 2,
                     },
                     {
-                        name: 'quanity',
+                        name: 'quantity',
                         type: 'int',
                     },
                     {
