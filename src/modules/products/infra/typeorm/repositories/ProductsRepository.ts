@@ -28,6 +28,8 @@ class ProductsRepository implements IProductsRepository {
     });
 
     await this.ormRepository.save(product);
+
+    return product;
   }
 
   public async findByName(name: string): Promise<Product | undefined> {
